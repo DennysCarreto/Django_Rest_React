@@ -1,0 +1,66 @@
+# ========================
+# PYTHON / DJANGO
+# ========================
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.po
+.env
+.env.*
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migraciones (opcional — algunos equipos sí las suben)
+# tasks/migrations/
+
+# ========================
+# NODE / REACT
+# ========================
+node_modules/
+build/
+dist/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# ========================
+# VARIABLES DE ENTORNO
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# IDEs Y EDITORES
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# TESTING
+# ========================
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
