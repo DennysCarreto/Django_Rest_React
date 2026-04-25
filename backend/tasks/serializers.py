@@ -5,6 +5,7 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = '__all__'
+        read_only_fields = ['user', 'created']
 
     def validate_title(self, value):
         if len(value) < 3:
